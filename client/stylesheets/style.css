@@ -1,0 +1,184 @@
+body {
+  background: #f9e933;
+}
+header, main, footer {
+  min-width: 855px;
+  padding: 10px;
+}
+header .container, main .container, footer .container {
+  max-width: 855px;
+  margin: auto;
+}
+header {
+  padding-top: 1em;
+  background: #f9e933;
+  overflow: auto;
+}
+h1 {
+  float: left;
+  width: 570px;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+header nav {
+  float: right;
+  width: 285px;
+}
+/*h3 {
+  float: left;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}*/
+p {
+  font-family: 'Indie Flower', cursive;
+  text-align: justify;
+}
+img {
+  float: right;
+  padding-right: 5em;
+}
+
+main {
+    background: #fff;
+    border-radius: 0 5px 5px 5px;;
+    padding: 40px;
+}
+
+.tabs a span {
+    border-radius: 5px 5px 0 0;
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+    text-align: center;
+    background: #ddd;
+    padding: 5px;
+}
+
+.tabs a span.active {
+    background: #eee;
+}
+
+main .content {
+    padding: 30px 10px 30px 10px;
+    border-radius: 0 5px 5px 5px;
+    background: #eee;
+}
+
+main .content h3 {
+    border-radius: 5px;
+    color: #999;;
+    background: #ddd;
+    font-family: 'Oswald', sans-serif;
+    padding: 5px;
+    margin: 20px 0 10px 0;
+}
+
+main .content h3:first-child {
+    margin-top: 0;
+}
+
+main .content li {
+    border-radius: 5px;
+    padding: 3px;
+    background: #eff;
+    font-family: 'Indie Flower', cursive;
+    margin: 0 0 10px 0;
+}
+
+main .content span {
+  font-weight: bold;
+  padding: 0 3px 0 3px;
+  border-radius: 5px;
+  background: #ccc;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 1.3em;
+}
+
+main .content p {
+    color: red;
+    margin: 30px 0 0px 0;
+}
+
+main .content p:first-child {
+    margin-top: 10px;
+
+}
+
+main .content input {
+    font-size: 1.5em;
+}
+
+
+
+/*main {
+  background: #FFFFFF;
+  overflow: auto;
+  font-family: 'Indie Flower', cursive;
+  color: #000000;
+}
+main .left {
+  float: left;
+  width: 570px;
+}
+main .right {
+  float: right;
+  width: 285px;
+}
+main .head {
+  text-align: center;
+  width: 570px;
+}*/
+footer .left {
+  float: left;
+  width: 570px;
+}
+main .padding {
+  padding-bottom: 250px;
+}
+footer .sitemap {
+  float: right;
+  width: 285px;
+}
+footer .address {
+  font-family: 'Lobster Two', cursive;
+}
+
+/* unvisited link */
+
+a:link {
+  color: #0000FF;
+}
+
+/* visited link */
+
+a:visited {
+  color: #0000FF;
+}
+
+/* mouse over link */
+
+a:hover {
+  color: #DC143C;
+}
+
+/* selected link */
+
+a:active {
+  color: #778899;
+}
+div .col {
+  /* Internet Explorer*/
+  -ms-column-count: 2;
+  /* Firefox */
+  -moz-column-count: 2;
+  /* Chrome, Safari, Opera */
+  -webkit-column-count: 2;
+  column-count: 2;
+}
+.top {
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: underline;
+}
